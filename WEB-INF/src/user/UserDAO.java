@@ -13,7 +13,7 @@ public class UserDAO {
 		try{
 			String dbURL ="jdbc:mysql://http://kooworld.run.goorm.io/inflearn_JSP/login.jsp";
 			String dbID = "root";
-			String dbPassword = "qhsdlr21!!";
+			String dbPassword = "1234";
 			class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnetion(dbURL, dbID, dbPassword);
 		}catch(Exception e){
