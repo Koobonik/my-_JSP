@@ -16,6 +16,18 @@
 <body>
 	<!-- login.jsp 의 아이디와 비밀번호 넣어주기-->
 	<%
+	//이미 로그인 된사람은 접속 못하게
+	String userID = null;
+	if(session.getAttribute("userID") != null){
+		userID = (String) session.getAttribute("userID");
+	}
+	if(userID != null){
+		PrintWriter script = response.getWriter();
+		script.println("<script>");
+		script.println("alert ('이미 로그인이 되어있습니다.')");
+		script.println("location.href = 'main.jsp'");
+		script.println("</script>");
+	}
 	UserDAO userDAO = new UserDAO();
 	int result = userDAO.login(user.getUserID(), user.getUserPassword());
 	if(result==1){
