@@ -39,8 +39,8 @@
 		<!-- 접속하기 누르면 dropdown-menu 실행 떨어지는 차트들-->
 				<ul class="dropdown-menu">
 					<!-- active 명령어가 있으면 바탕이 파란색임-->
-				<li class="active"><a href="login.jsp">로그인</a></li>
-				<li><a href="join.jsp">회원가입</a></li>
+				<li><a href="login.jsp">로그인</a></li>
+				<li class="active"><a href="join.jsp">회원가입</a></li>
 				</ul></li>
 		</ul>
 		</div>
