@@ -2,9 +2,9 @@
 
 <!-- 우리가 만든 클래스 불러오기-->
 <%@ page import="user.UserDAO" %> 
-<%@ page import="java.io.PrintWriter" %> 
+<%@ page import="java.io.PrintWriter" %>
 <% request.setCharacterEncoding("UTF-8");%> 
-<jsp:useBean id="user" class="user.User" scope="page"/>
+<jsp:useBean id="user" class="user.User" scope="page" />
 <jsp:setProperty name="user" property="userID"/>
 <jsp:setProperty name="user" property="userPassword"/>
 <!DOCTYPE html>
@@ -19,6 +19,7 @@
 	UserDAO userDAO = new UserDAO();
 	int result = userDAO.login(user.getUserID(), user.getUserPassword());
 	if(result==1){
+		session.setAttribute("userID", user.getUserID());
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
 		script.println("location.href = 'main.jsp'");

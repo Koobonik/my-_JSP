@@ -3,185 +3,598 @@ Using CATALINA_HOME:   /goormService/tomcat7
 Using CATALINA_TMPDIR: /goormService/tomcat7/temp
 Using JRE_HOME:        /usr/lib/jvm/java-8-openjdk-amd64
 Using CLASSPATH:       /goormService/tomcat7/bin/bootstrap.jar:/goormService/tomcat7/bin/tomcat-juli.jar
-7월 16, 2017 11:14:23 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Server version:        Apache Tomcat/7.0.77
-7월 16, 2017 11:14:23 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Server built:          Mar 28 2017 16:01:48 UTC
-7월 16, 2017 11:14:23 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Server number:         7.0.77.0
-7월 16, 2017 11:14:23 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: OS Name:               Linux
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: OS Version:            4.4.0-81-generic
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Architecture:          amd64
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: JVM Version:           1.8.0_111-8u111-b14-3~14.04.1-b14
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: JVM Vendor:            Oracle Corporation
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: CATALINA_BASE:         /goormService/tomcat7
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: CATALINA_HOME:         /goormService/tomcat7
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.util.logging.config.file=/goormService/tomcat7/conf/logging.properties
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.endorsed.dirs=/goormService/tomcat7/endorsed
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Dcatalina.base=/goormService/tomcat7
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Dcatalina.home=/goormService/tomcat7
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.VersionLoggerListener log
+7월 17, 2017 9:48:52 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.io.tmpdir=/goormService/tomcat7/temp
-7월 16, 2017 11:14:24 오전 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+7월 17, 2017 9:48:52 오후 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
 정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
-7월 16, 2017 11:14:24 오전 org.apache.coyote.AbstractProtocol init
+7월 17, 2017 9:48:53 오후 org.apache.coyote.AbstractProtocol init
 정보: Initializing ProtocolHandler ["http-bio-8080"]
-7월 16, 2017 11:14:24 오전 org.apache.coyote.AbstractProtocol init
+7월 17, 2017 9:48:53 오후 org.apache.coyote.AbstractProtocol init
 정보: Initializing ProtocolHandler ["ajp-bio-8009"]
-7월 16, 2017 11:14:24 오전 org.apache.catalina.startup.Catalina load
-정보: Initialization processed in 5198 ms
-7월 16, 2017 11:14:25 오전 org.apache.catalina.core.StandardService startInternal
+7월 17, 2017 9:48:53 오후 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 5305 ms
+7월 17, 2017 9:48:53 오후 org.apache.catalina.core.StandardService startInternal
 정보: Starting service Catalina
-7월 16, 2017 11:14:25 오전 org.apache.catalina.core.StandardEngine startInternal
+7월 17, 2017 9:48:53 오후 org.apache.catalina.core.StandardEngine startInternal
 정보: Starting Servlet Engine: Apache Tomcat/7.0.77
-7월 16, 2017 11:14:25 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:48:53 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 16, 2017 11:14:28 오전 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
-정보: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [188] milliseconds.
-7월 16, 2017 11:14:28 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 3,605 ms
-7월 16, 2017 11:14:28 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:48:57 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 17, 2017 9:48:58 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 4,900 ms
+7월 17, 2017 9:48:58 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 16, 2017 11:14:29 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 599 ms
-7월 16, 2017 11:14:29 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:48:58 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 497 ms
+7월 17, 2017 9:48:58 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/host-manager
-7월 16, 2017 11:14:30 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/host-manager has finished in 707 ms
-7월 16, 2017 11:14:30 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:48:59 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/host-manager has finished in 499 ms
+7월 17, 2017 9:48:59 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/examples
-7월 16, 2017 11:14:33 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/examples has finished in 3,298 ms
-7월 16, 2017 11:14:33 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:49:02 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/examples has finished in 2,805 ms
+7월 17, 2017 9:49:02 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/ROOT
-7월 16, 2017 11:14:34 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/ROOT has finished in 600 ms
-7월 16, 2017 11:14:34 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:49:02 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/ROOT has finished in 504 ms
+7월 17, 2017 9:49:02 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/docs
-7월 16, 2017 11:14:34 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/docs has finished in 391 ms
-7월 16, 2017 11:14:34 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:49:03 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/docs has finished in 419 ms
+7월 17, 2017 9:49:03 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/manager
-7월 16, 2017 11:14:34 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/manager has finished in 408 ms
-7월 16, 2017 11:14:35 오전 org.apache.coyote.AbstractProtocol start
+7월 17, 2017 9:49:04 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/manager has finished in 1,093 ms
+7월 17, 2017 9:49:04 오후 org.apache.coyote.AbstractProtocol start
 정보: Starting ProtocolHandler ["http-bio-8080"]
-7월 16, 2017 11:14:35 오전 org.apache.coyote.AbstractProtocol start
+7월 17, 2017 9:49:04 오후 org.apache.coyote.AbstractProtocol start
 정보: Starting ProtocolHandler ["ajp-bio-8009"]
-7월 16, 2017 11:14:35 오전 org.apache.catalina.startup.Catalina start
-정보: Server startup in 10393 ms
-7월 16, 2017 11:14:45 오전 org.apache.catalina.startup.HostConfig undeploy
+7월 17, 2017 9:49:04 오후 org.apache.catalina.startup.Catalina start
+정보: Server startup in 11396 ms
+7월 17, 2017 9:49:14 오후 org.apache.catalina.startup.HostConfig undeploy
 정보: Undeploying context [/inflearn_JSP]
-7월 16, 2017 11:14:46 오전 org.apache.catalina.startup.HostConfig undeploy
+7월 17, 2017 9:49:14 오후 org.apache.catalina.core.StandardWrapper unload
+정보: Waiting for 1 instance(s) to be deallocated for Servlet [jsp]
+7월 17, 2017 9:49:15 오후 org.apache.catalina.core.StandardWrapper unload
+정보: Waiting for 1 instance(s) to be deallocated for Servlet [jsp]
+7월 17, 2017 9:49:17 오후 org.apache.catalina.core.StandardWrapper unload
+정보: Waiting for 1 instance(s) to be deallocated for Servlet [jsp]
+7월 17, 2017 9:49:17 오후 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+심각: The web application [/inflearn_JSP] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation.
+7월 17, 2017 9:49:17 오후 org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+정보: Illegal access: this web application instance has been stopped already.  Could not load org/apache/jsp/package-info.class.  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+7월 17, 2017 9:49:18 오후 org.apache.catalina.startup.HostConfig undeploy
 정보: Undeploying context [/work]
-7월 16, 2017 11:14:46 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:49:18 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 16, 2017 11:14:47 오전 org.apache.catalina.startup.TldConfig execute
+7월 17, 2017 9:49:19 오후 org.apache.catalina.startup.TldConfig execute
 정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 16, 2017 11:14:47 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 1,596 ms
-7월 16, 2017 11:14:57 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:49:19 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 714 ms
+java.sql.SQLException: Must specify port after ':' in connection string
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.NonRegisteringDriver.parseHostPortPair(NonRegisteringDriver.java:232)
+	at com.mysql.jdbc.NonRegisteringDriver.parseURL(NonRegisteringDriver.java:757)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:338)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at user.UserDAO.<init>(UserDAO.java:20)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:113)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.sql.SQLException: Must specify port after ':' in connection string
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.NonRegisteringDriver.parseHostPortPair(NonRegisteringDriver.java:232)
+	at com.mysql.jdbc.NonRegisteringDriver.parseURL(NonRegisteringDriver.java:757)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:338)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at user.UserDAO.<init>(UserDAO.java:20)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:113)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at user.UserDAO.login(UserDAO.java:30)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:114)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at user.UserDAO.login(UserDAO.java:30)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:114)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+7월 17, 2017 9:49:29 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 16, 2017 11:14:57 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 193 ms
-7월 16, 2017 11:24:48 오전 org.apache.catalina.startup.HostConfig undeploy
+7월 17, 2017 9:49:29 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 608 ms
+java.sql.SQLException: Must specify port after ':' in connection string
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.NonRegisteringDriver.parseHostPortPair(NonRegisteringDriver.java:232)
+	at com.mysql.jdbc.NonRegisteringDriver.parseURL(NonRegisteringDriver.java:757)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:338)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at user.UserDAO.<init>(UserDAO.java:20)
+	at org.apache.jsp.joinAction_jsp._jspService(joinAction_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at user.UserDAO.join(UserDAO.java:50)
+	at org.apache.jsp.joinAction_jsp._jspService(joinAction_jsp.java:128)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.sql.SQLException: Must specify port after ':' in connection string
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.NonRegisteringDriver.parseHostPortPair(NonRegisteringDriver.java:232)
+	at com.mysql.jdbc.NonRegisteringDriver.parseURL(NonRegisteringDriver.java:757)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:338)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at user.UserDAO.<init>(UserDAO.java:20)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:113)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at user.UserDAO.login(UserDAO.java:30)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:114)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+7월 17, 2017 9:58:49 오후 org.apache.catalina.startup.HostConfig undeploy
 정보: Undeploying context [/inflearn_JSP]
-7월 16, 2017 11:24:48 오전 org.apache.catalina.startup.HostConfig undeploy
+7월 17, 2017 9:58:50 오후 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+심각: The web application [/inflearn_JSP] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+7월 17, 2017 9:58:50 오후 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+심각: The web application [/inflearn_JSP] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+7월 17, 2017 9:58:50 오후 org.apache.catalina.startup.HostConfig undeploy
 정보: Undeploying context [/work]
-7월 16, 2017 11:24:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:58:50 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 16, 2017 11:24:49 오전 org.apache.catalina.startup.TldConfig execute
+7월 17, 2017 9:58:52 오후 org.apache.catalina.startup.TldConfig execute
 정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 16, 2017 11:24:49 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 893 ms
-7월 16, 2017 11:24:59 오전 org.apache.catalina.startup.HostConfig deployDirectory
+7월 17, 2017 9:58:52 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 1,403 ms
+7월 17, 2017 9:59:02 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 16, 2017 11:25:00 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 203 ms
-7월 16, 2017 11:37:20 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/inflearn_JSP]
-7월 16, 2017 11:37:21 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/work]
-7월 16, 2017 11:37:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 16, 2017 11:37:21 오전 org.apache.catalina.startup.TldConfig execute
-정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 16, 2017 11:37:21 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 596 ms
-7월 16, 2017 11:37:31 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 16, 2017 11:37:32 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 295 ms
-7월 16, 2017 11:46:52 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/inflearn_JSP]
-7월 16, 2017 11:46:52 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/work]
-7월 16, 2017 11:46:52 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 16, 2017 11:46:53 오전 org.apache.catalina.startup.TldConfig execute
-정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 16, 2017 11:46:53 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 811 ms
-7월 16, 2017 11:47:03 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 16, 2017 11:47:04 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 402 ms
-7월 16, 2017 11:50:34 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/inflearn_JSP]
-7월 16, 2017 11:50:34 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/work]
-7월 16, 2017 11:50:34 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 16, 2017 11:50:35 오전 org.apache.catalina.startup.TldConfig execute
-정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 16, 2017 11:50:35 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 895 ms
-7월 16, 2017 11:50:45 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 16, 2017 11:50:45 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 113 ms
-7월 16, 2017 11:51:55 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/inflearn_JSP]
-7월 16, 2017 11:51:56 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/work]
-7월 16, 2017 11:51:56 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 16, 2017 11:51:56 오전 org.apache.catalina.startup.TldConfig execute
-정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 16, 2017 11:51:57 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 501 ms
-7월 16, 2017 11:52:07 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 16, 2017 11:52:07 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 113 ms
-7월 16, 2017 11:52:37 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/inflearn_JSP]
-7월 16, 2017 11:52:37 오전 org.apache.catalina.startup.HostConfig undeploy
-정보: Undeploying context [/work]
-7월 16, 2017 11:52:37 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 16, 2017 11:52:38 오전 org.apache.catalina.startup.TldConfig execute
-정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 16, 2017 11:52:38 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 398 ms
-7월 16, 2017 11:52:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 16, 2017 11:52:48 오전 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 102 ms
+7월 17, 2017 9:59:02 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 296 ms
+java.sql.SQLException: Must specify port after ':' in connection string
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.NonRegisteringDriver.parseHostPortPair(NonRegisteringDriver.java:232)
+	at com.mysql.jdbc.NonRegisteringDriver.parseURL(NonRegisteringDriver.java:757)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:338)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at user.UserDAO.<init>(UserDAO.java:20)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:113)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at user.UserDAO.login(UserDAO.java:30)
+	at org.apache.jsp.loginAction_jsp._jspService(loginAction_jsp.java:114)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.sql.SQLException: Must specify port after ':' in connection string
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.NonRegisteringDriver.parseHostPortPair(NonRegisteringDriver.java:232)
+	at com.mysql.jdbc.NonRegisteringDriver.parseURL(NonRegisteringDriver.java:757)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:338)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at user.UserDAO.<init>(UserDAO.java:20)
+	at org.apache.jsp.joinAction_jsp._jspService(joinAction_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at user.UserDAO.join(UserDAO.java:50)
+	at org.apache.jsp.joinAction_jsp._jspService(joinAction_jsp.java:128)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.sql.SQLException: Must specify port after ':' in connection string
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
+	at com.mysql.jdbc.NonRegisteringDriver.parseHostPortPair(NonRegisteringDriver.java:232)
+	at com.mysql.jdbc.NonRegisteringDriver.parseURL(NonRegisteringDriver.java:757)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:338)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at user.UserDAO.<init>(UserDAO.java:20)
+	at org.apache.jsp.joinAction_jsp._jspService(joinAction_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.NullPointerException
+	at user.UserDAO.join(UserDAO.java:50)
+	at org.apache.jsp.joinAction_jsp._jspService(joinAction_jsp.java:128)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
