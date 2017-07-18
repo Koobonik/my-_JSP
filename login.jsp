@@ -1,8 +1,5 @@
 <%@ page language="java" contentType = "text/html; charset=utf-8" pageEncoding="utf-8"%>
-<%@ page import="example.*" %> 
-<%
-	HelloWorld h = new HelloWorld();
-%>
+
 <!DOCTYPE html>
 <html>
 	<head>
