@@ -19,7 +19,18 @@
 <body>
 	<!-- login.jsp 의 아이디와 비밀번호 넣어주기-->
 	<%
-	//텍스트 박스가 비어있으면 history.back();
+	String userID = null;
+	if(session.getAttribute("userID") != null){
+	userID = (String) session.getAttribute("userID");
+	}
+	if(userID != null){
+		PrintWriter script = response.getWriter();
+		script.println("<script>");
+		script.println("alert ('이미 로그인이 되어있습니다.')");
+		script.println("location.href = 'main.jsp'");
+		script.println("</script>");
+	}
+	
 	if(user.getUserID() == null || user.getUserPassword() == null || user.getUserName() == null || user.getUserGender() == null || user.getUserEmail() == null){
 		PrintWriter script = response.getWriter();
 		script.println("<script>");

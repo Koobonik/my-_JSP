@@ -5,6 +5,7 @@ public class inflearn_JSP{
 	private int inflearn_JSPID;
 	private String inflearn_JSPTitle;
 	private String userID;
+	private String inflearn_JSPDate;
 	private String inflearn_JSPContent;
 	private int inflearn_JSPAvailable;
 	
@@ -17,14 +18,14 @@ public class inflearn_JSP{
 	public String getinflearn_JSPTitle(){
 		return inflearn_JSPTitle;
 	}
-	publicvoid setinflearn_JSPTitle(String inflearn_JSPTitle){
+	public void setinflearn_JSPTitle(String inflearn_JSPTitle){
 		this.inflearn_JSPTitle = inflearn_JSPTitle;
 	}
-	public String getinflearn_JSPID(){
-		return inflearn_JSPID;
+	public String getUserID(){
+		return userID;
 	}
-	public void setinflearn_JSPID(String inflearn_JSPID){
-		this.inflearn_JSPID = inflearn_JSPID;
+	public void setUserID(String userID){
+		this.userID = userID;
 	}
 	public String getinflearn_JSPDate(){
 		return inflearn_JSPDate;

@@ -3,202 +3,236 @@ Using CATALINA_HOME:   /goormService/tomcat7
 Using CATALINA_TMPDIR: /goormService/tomcat7/temp
 Using JRE_HOME:        /usr/lib/jvm/java-8-openjdk-amd64
 Using CLASSPATH:       /goormService/tomcat7/bin/bootstrap.jar:/goormService/tomcat7/bin/tomcat-juli.jar
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Server version:        Apache Tomcat/7.0.77
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Server built:          Mar 28 2017 16:01:48 UTC
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Server number:         7.0.77.0
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: OS Name:               Linux
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
-정보: OS Version:            4.4.0-81-generic
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
+정보: OS Version:            4.4.0-83-generic
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Architecture:          amd64
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: JVM Version:           1.8.0_111-8u111-b14-3~14.04.1-b14
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: JVM Vendor:            Oracle Corporation
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: CATALINA_BASE:         /goormService/tomcat7
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: CATALINA_HOME:         /goormService/tomcat7
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.util.logging.config.file=/goormService/tomcat7/conf/logging.properties
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.endorsed.dirs=/goormService/tomcat7/endorsed
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Dcatalina.base=/goormService/tomcat7
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Dcatalina.home=/goormService/tomcat7
-7월 18, 2017 10:35:47 오후 org.apache.catalina.startup.VersionLoggerListener log
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.VersionLoggerListener log
 정보: Command line argument: -Djava.io.tmpdir=/goormService/tomcat7/temp
-7월 18, 2017 10:35:47 오후 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+7월 19, 2017 9:19:46 오후 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
 정보: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
-7월 18, 2017 10:35:48 오후 org.apache.coyote.AbstractProtocol init
+7월 19, 2017 9:19:46 오후 org.apache.coyote.AbstractProtocol init
 정보: Initializing ProtocolHandler ["http-bio-8080"]
-7월 18, 2017 10:35:48 오후 org.apache.coyote.AbstractProtocol init
+7월 19, 2017 9:19:46 오후 org.apache.coyote.AbstractProtocol init
 정보: Initializing ProtocolHandler ["ajp-bio-8009"]
-7월 18, 2017 10:35:48 오후 org.apache.catalina.startup.Catalina load
-정보: Initialization processed in 5263 ms
-7월 18, 2017 10:35:48 오후 org.apache.catalina.core.StandardService startInternal
+7월 19, 2017 9:19:46 오후 org.apache.catalina.startup.Catalina load
+정보: Initialization processed in 4155 ms
+7월 19, 2017 9:19:46 오후 org.apache.catalina.core.StandardService startInternal
 정보: Starting service Catalina
-7월 18, 2017 10:35:48 오후 org.apache.catalina.core.StandardEngine startInternal
+7월 19, 2017 9:19:46 오후 org.apache.catalina.core.StandardEngine startInternal
 정보: Starting Servlet Engine: Apache Tomcat/7.0.77
-7월 18, 2017 10:35:48 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:19:47 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 18, 2017 10:35:53 오후 org.apache.catalina.startup.TldConfig execute
+7월 19, 2017 9:19:50 오후 org.apache.catalina.startup.TldConfig execute
 정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 18, 2017 10:35:54 오후 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
-정보: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [135] milliseconds.
-7월 18, 2017 10:35:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 5,624 ms
-7월 18, 2017 10:35:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:19:51 오후 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+정보: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [169] milliseconds.
+7월 19, 2017 9:19:51 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 4,714 ms
+7월 19, 2017 9:19:51 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 18, 2017 10:35:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 371 ms
-7월 18, 2017 10:35:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:19:52 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 272 ms
+7월 19, 2017 9:19:52 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/host-manager
-7월 18, 2017 10:35:55 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/host-manager has finished in 798 ms
-7월 18, 2017 10:35:55 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:19:52 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/host-manager has finished in 399 ms
+7월 19, 2017 9:19:52 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/examples
-7월 18, 2017 10:35:58 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/examples has finished in 2,907 ms
-7월 18, 2017 10:35:58 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:19:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/examples has finished in 1,897 ms
+7월 19, 2017 9:19:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/ROOT
-7월 18, 2017 10:35:59 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/ROOT has finished in 591 ms
-7월 18, 2017 10:35:59 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:19:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/ROOT has finished in 400 ms
+7월 19, 2017 9:19:54 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/docs
-7월 18, 2017 10:35:59 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/docs has finished in 315 ms
-7월 18, 2017 10:35:59 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:19:55 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/docs has finished in 401 ms
+7월 19, 2017 9:19:55 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/manager
-7월 18, 2017 10:36:00 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/manager has finished in 1,011 ms
-7월 18, 2017 10:36:00 오후 org.apache.coyote.AbstractProtocol start
+7월 19, 2017 9:19:55 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/manager has finished in 398 ms
+7월 19, 2017 9:19:55 오후 org.apache.coyote.AbstractProtocol start
 정보: Starting ProtocolHandler ["http-bio-8080"]
-7월 18, 2017 10:36:00 오후 org.apache.coyote.AbstractProtocol start
+7월 19, 2017 9:19:55 오후 org.apache.coyote.AbstractProtocol start
 정보: Starting ProtocolHandler ["ajp-bio-8009"]
-7월 18, 2017 10:36:00 오후 org.apache.catalina.startup.Catalina start
-정보: Server startup in 12507 ms
-7월 18, 2017 10:36:10 오후 org.apache.catalina.startup.HostConfig undeploy
+7월 19, 2017 9:19:55 오후 org.apache.catalina.startup.Catalina start
+정보: Server startup in 8888 ms
+7월 19, 2017 9:20:05 오후 org.apache.catalina.startup.HostConfig undeploy
 정보: Undeploying context [/inflearn_JSP]
-7월 18, 2017 10:36:11 오후 org.apache.catalina.startup.HostConfig undeploy
+7월 19, 2017 9:20:06 오후 org.apache.catalina.startup.HostConfig undeploy
 정보: Undeploying context [/work]
-7월 18, 2017 10:36:11 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:20:06 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 18, 2017 10:36:12 오후 org.apache.catalina.startup.TldConfig execute
+7월 19, 2017 9:20:07 오후 org.apache.catalina.startup.TldConfig execute
 정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 18, 2017 10:36:12 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 885 ms
-7월 18, 2017 10:36:22 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:20:07 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 788 ms
+7월 19, 2017 9:20:17 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 18, 2017 10:36:23 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 699 ms
-7월 18, 2017 11:10:03 오후 org.apache.catalina.startup.HostConfig undeploy
+7월 19, 2017 9:20:17 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 110 ms
+7월 19, 2017 9:39:47 오후 org.apache.catalina.core.StandardContext reload
+정보: Reloading Context with name [/inflearn_JSP] has started
+7월 19, 2017 9:39:47 오후 org.apache.catalina.loader.WebappClassLoaderBase openJARs
+경고: Failed to open JAR [null]
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3108)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3397)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:1458)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1686)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2282)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2223)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2123)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:663)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5872)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4131)
+	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:425)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1341)
+	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5958)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1542)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1552)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1520)
+	at java.lang.Thread.run(Thread.java:745)
+
+7월 19, 2017 9:39:48 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 19, 2017 9:39:48 오후 org.apache.catalina.core.StandardContext reload
+정보: Reloading Context with name [/inflearn_JSP] is completed
+7월 19, 2017 9:39:58 오후 org.apache.catalina.startup.HostConfig undeploy
 정보: Undeploying context [/inflearn_JSP]
-7월 18, 2017 11:10:04 오후 org.apache.catalina.startup.HostConfig undeploy
+7월 19, 2017 9:39:58 오후 org.apache.catalina.startup.HostConfig undeploy
 정보: Undeploying context [/work]
-7월 18, 2017 11:10:04 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:39:58 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
-7월 18, 2017 11:10:06 오후 org.apache.catalina.startup.TldConfig execute
+7월 19, 2017 9:39:59 오후 org.apache.catalina.startup.TldConfig execute
 정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-7월 18, 2017 11:10:06 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 2,300 ms
-7월 18, 2017 11:10:16 오후 org.apache.catalina.startup.HostConfig deployDirectory
+7월 19, 2017 9:39:59 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 797 ms
+7월 19, 2017 9:40:09 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deploying web application directory /goormService/tomcat7/webapps/work
-7월 18, 2017 11:10:17 오후 org.apache.catalina.startup.HostConfig deployDirectory
-정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 212 ms
-java.sql.SQLException: Must specify port after ':' in connection string
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:989)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:975)
-	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:920)
-	at com.mysql.jdbc.NonRegisteringDriver.parseHostPortPair(NonRegisteringDriver.java:232)
-	at com.mysql.jdbc.NonRegisteringDriver.parseURL(NonRegisteringDriver.java:757)
-	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:338)
-	at java.sql.DriverManager.getConnection(DriverManager.java:664)
-	at java.sql.DriverManager.getConnection(DriverManager.java:247)
-	at user.UserDAO.<init>(UserDAO.java:20)
-	at org.apache.jsp.joinAction_jsp._jspService(joinAction_jsp.java:128)
-	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
-	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
-	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
-	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
-	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
-	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
-	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-java.lang.NullPointerException
-	at user.UserDAO.join(UserDAO.java:50)
-	at org.apache.jsp.joinAction_jsp._jspService(joinAction_jsp.java:129)
-	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:439)
-	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
-	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:218)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
-	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
-	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
-	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
-	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:745)
-7월 18, 2017 11:45:29 오후 org.apache.coyote.AbstractProtocol pause
-정보: Pausing ProtocolHandler ["http-bio-8080"]
-7월 18, 2017 11:45:29 오후 org.apache.coyote.AbstractProtocol pause
-정보: Pausing ProtocolHandler ["ajp-bio-8009"]
-7월 18, 2017 11:45:29 오후 org.apache.catalina.core.StandardService stopInternal
-정보: Stopping service Catalina
-7월 18, 2017 11:45:29 오후 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
-심각: The web application [/inflearn_JSP] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
-7월 18, 2017 11:45:29 오후 org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
-심각: The web application [/inflearn_JSP] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
-7월 18, 2017 11:45:29 오후 org.apache.coyote.AbstractProtocol stop
-정보: Stopping ProtocolHandler ["http-bio-8080"]
-7월 18, 2017 11:45:29 오후 org.apache.coyote.AbstractProtocol stop
-정보: Stopping ProtocolHandler ["ajp-bio-8009"]
-7월 18, 2017 11:45:29 오후 org.apache.coyote.AbstractProtocol destroy
-정보: Destroying ProtocolHandler ["http-bio-8080"]
-7월 18, 2017 11:45:29 오후 org.apache.coyote.AbstractProtocol destroy
-정보: Destroying ProtocolHandler ["ajp-bio-8009"]
+7월 19, 2017 9:40:10 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 210 ms
+7월 19, 2017 9:40:40 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/inflearn_JSP]
+7월 19, 2017 9:40:40 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/work]
+7월 19, 2017 9:40:40 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
+7월 19, 2017 9:40:41 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 19, 2017 9:40:41 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 521 ms
+7월 19, 2017 9:40:51 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+7월 19, 2017 9:40:51 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 115 ms
+7월 19, 2017 10:07:11 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/inflearn_JSP]
+7월 19, 2017 10:07:12 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/work]
+7월 19, 2017 10:07:12 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
+7월 19, 2017 10:07:13 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 19, 2017 10:07:13 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 699 ms
+7월 19, 2017 10:07:23 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+7월 19, 2017 10:07:23 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 200 ms
+7월 19, 2017 10:12:03 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/inflearn_JSP]
+7월 19, 2017 10:12:03 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/work]
+7월 19, 2017 10:12:03 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
+7월 19, 2017 10:12:04 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 19, 2017 10:12:04 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 322 ms
+7월 19, 2017 10:12:14 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+7월 19, 2017 10:12:14 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 87 ms
+7월 19, 2017 10:15:14 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/inflearn_JSP]
+7월 19, 2017 10:15:14 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/work]
+7월 19, 2017 10:15:14 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
+7월 19, 2017 10:15:15 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 19, 2017 10:15:15 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 392 ms
+7월 19, 2017 10:15:25 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+7월 19, 2017 10:15:25 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 200 ms
+7월 19, 2017 10:16:55 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/inflearn_JSP]
+7월 19, 2017 10:16:56 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/work]
+7월 19, 2017 10:16:56 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
+7월 19, 2017 10:16:56 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 19, 2017 10:16:56 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 316 ms
+7월 19, 2017 10:17:06 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+7월 19, 2017 10:17:06 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 89 ms
+7월 19, 2017 10:19:56 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/inflearn_JSP]
+7월 19, 2017 10:19:57 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/work]
+7월 19, 2017 10:19:57 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
+7월 19, 2017 10:19:57 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+7월 19, 2017 10:19:57 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 507 ms
+7월 19, 2017 10:20:07 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+7월 19, 2017 10:20:08 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 105 ms

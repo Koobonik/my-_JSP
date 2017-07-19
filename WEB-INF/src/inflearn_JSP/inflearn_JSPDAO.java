@@ -1,11 +1,11 @@
 package inflearn_JSP;
-package user;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
 
-public class inflearn_JSPAO {
+public class inflearn_JSPDAO {
 
 	private Connection conn;
 	private ResultSet rs;
@@ -37,7 +37,7 @@ public class inflearn_JSPAO {
 		}
 	
 	public int getNext(){
-			String SQL = "SELECT inflearn_JSPID FROM FROM inflearn_JSP ORDER BY inflearn_JSPIDDESC";
+			String SQL = "SELECT inflearn_JSPID FROM inflearn_JSP ORDER BY inflearn_JSPIDDESC";
 			try{
 				PreparedStatement pstmt = conn.prepareStatement(SQL);
 				rs = pstmt.executeQuery();
@@ -52,7 +52,7 @@ public class inflearn_JSPAO {
 		}
 	
 	public int write(String inflearn_JSPTitle, String userID, String inflearn_JSPContent){
-		String SQL = "INSERT INTO inflearn_JSP VALUE(?, ?, ?, ?, ?, ?)";
+		String SQL = "INSERT INTO inflearn_JSP VALUES(?, ?, ?, ?, ?, ?)";
 			try{
 				PreparedStatement pstmt = conn.prepareStatement(SQL);
 				pstmt.setInt(1, getNext());
@@ -60,8 +60,7 @@ public class inflearn_JSPAO {
 				pstmt.setString(3, userID);
 				pstmt.setString(4, getDate());
 				pstmt.setString(5, inflearn_JSPContent);
-				pstmt.setString(6, 1);
-				rs = pstmt.executeQuery();
+				pstmt.setInt(6, 1);
 				rs = pstmt.executeUpdate();
 				return 1;//데이터 베이스 오류
 			}catch(Exception e){
@@ -69,6 +68,41 @@ public class inflearn_JSPAO {
 			}
 			return -1;//데이터 베이스오류
 		}
+	public ArrayList<inflearn_JSP> getList(int pageNumber){
+		String SQL = "SELECT * FROM inflearn_JSP WHERE inflearn_JSPID < ? AND inflearn_JSPIDAvailable = 1 ORDER BY inflearn_JSPIDDESC LIMIT 10";
+		ArrayList<inflearn_JSP> list = new inflearn_JSP<inflearn_JSP>();
+			try{
+				PreparedStatement pstmt = conn.prepareStatement(SQL);
+				pstmt.setInt(1, getNext() - (pageNumber -1 ) * 10);
+				rs = pstmt.executeQuery();
+				while(rs.next()){
+					inflearn_JSP Inflearn_JSP = new inflearn_JSP();
+					Inflearn_JSP.setinflearn_JSPID(rs.getInt(1));
+					Inflearn_JSP.setinflearn_JSPTitle(rs.getString(2));
+					Inflearn_JSP.setUserID(rs.getString(3));
+					Inflearn_JSP.setinflearn_JSPDate(rs.getString(4));
+					Inflearn_JSP.setinflearn_JSPIDContent(rs.getString(5));
+					Inflearn_JSP.setinflearn_JSPAvaliable(rs.getInt(6));
+					list.add(inflearn_JSP);
+				}
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+			return list;
 	}
-	
+	public boolean nextPage(int pageNumber){
+		String SQL = "SELECT * FROM inflearn_JSP WHERE inflearn_JSPID < ? AND inflearn_JSPIDAvailable = 1 ORDER BY inflearn_JSPIDDESC LIMIT 10";
+			try{
+				PreparedStatement pstmt = conn.prepareStatement(SQL);
+				pstmt.setInt(1, getNext() - (pageNumber -1 ) * 10);
+				rs = pstmt.executeQuery();
+				if(rs.next()){
+					return true;	
+				}
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+			return false;
+	}
 }
+	

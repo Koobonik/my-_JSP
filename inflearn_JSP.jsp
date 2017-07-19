@@ -1,18 +1,31 @@
 <%@ page language="java" contentType = "text/html; charset=utf-8" pageEncoding="utf-8"%>
 <%@ page import="java.io.PrintWriter"%>
+<%@ page import="inflearn_JSP.inflearn_JSPDAO"%>
+<%@ page import="inflearn_JSP.inflearn_JSP"%>
+<%@ page import="java.util.ArrayList;"%>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width",initial-scale="1">
 		<link rel="stylesheet" href="css/bootstrap.css">
 			  <title>JSP 게시판 웹사이트</title>
+		<style type="text/css">
+			a, a:hover{
+				color #000000;
+				text-decoration: none;
+			}
+		</style>
 	</head>
 <body>
 	<%
 		String userID = null;
-	if(session.getAttribute("userID") != null){
-		userID = (String) session.getAttribute("userID");
-	}
+		if(session.getAttribute("userID") != null){
+			userID = (String) session.getAttribute("userID");
+		}
+		int pageNumber = 1;
+		if(request.getParameter("pageNumber") != null){
+			pageNumber = Integer.parseInt(request.getParameter("pageNumber"));
+		}
 	%>
 	<nav class="navbar navbar-defalut">
 	<div class="navbar-header">
@@ -81,14 +94,33 @@
 				</tr>
 				</thead>
 				<tbody>
-				<tr>
-					<td>1</td>
-					<td>안녕하세요.</td>
-					<td>홍길동</td>
-					<td>2017-07-18</td>
+					<%
+						inflearn_JSPDAO Inflearn_JSPDAO = new inflearn_JSPDAO();
+					arrayList<inflearn_JSP> list = inflearn_JSPDAO.getList(pageNumber);
+					for(int i = o; i < list.size(); i++){
+					%>
+					<tr>
+					<td><%= list.get(i).getinflearn_JSPID()%></td>
+						<td><a href ="view.jsp?getinflearn_JSPID=<%= list.get(i).getinflearn_JSPID() %>">list.get(i).getinflearn_JSPTitle()%></a></td>
+					<td><%= list.get(i).getUserID()%></td>
+					<td><%= list.get(i).getinflearn_JSPDate().substring(0, 11) + list.get(i).getinflearn_JSPDate.substring(11, 13) + "시" + list.get(i).getinflearn_JSPDate(14, 16) + "분" %></td>
 					</tr>
+					<%
+						}
+					%>
 				</tbody>
 			</table>
+			<%
+				if(pageNumber != 1){
+			%>
+				<a herf="inflearn_JSP.jsp?pageNumber=<%pageNumber - 1%>" class="btn btn-succest btn-arrow-left">이전</a>
+			<%
+				} if(Inflearn_JSPDAO.nextPage(pageNumber + 1)){
+			%>
+				<a herf="inflearn_JSP.jsp?pageNumber=<%pageNumber + 1%>" class="btn btn-succest btn-arrow-left">다음</a>
+			<%
+			}
+			%>
 			<a href="write.jsp" class="btn btn-primary pull-right">글쓰기</a>
 		</div>
 	</div>
