@@ -63,7 +63,7 @@ public class inflearn_JSPAO {
 				pstmt.setString(6, 1);
 				rs = pstmt.executeQuery();
 				rs = pstmt.executeUpdate();
-				return 1;//데이터 베이승 오류
+				return 1;//데이터 베이스 오류
 			}catch(Exception e){
 				e.printStackTrace();
 			}

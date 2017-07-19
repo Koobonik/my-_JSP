@@ -19,6 +19,7 @@
 <body>
 	<!-- login.jsp 의 아이디와 비밀번호 넣어주기-->
 	<%
+	//텍스트 박스가 비어있으면 history.back();
 	if(user.getUserID() == null || user.getUserPassword() == null || user.getUserName() == null || user.getUserGender() == null || user.getUserEmail() == null){
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
