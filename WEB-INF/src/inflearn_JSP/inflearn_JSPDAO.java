@@ -42,7 +42,7 @@ public class inflearn_JSPDAO {
 				PreparedStatement pstmt = conn.prepareStatement(SQL);
 				rs = pstmt.executeQuery();
 				if(rs.next()){
-					return rs.getString(1)+1;
+					return rs.getInt(1)+1;
 				}
 				return 1;//첫번째 게시물인 경우
 			}catch(Exception e){
@@ -61,8 +61,8 @@ public class inflearn_JSPDAO {
 				pstmt.setString(4, getDate());
 				pstmt.setString(5, inflearn_JSPContent);
 				pstmt.setInt(6, 1);
-				rs = pstmt.executeUpdate();
-				return 1;//데이터 베이스 오류
+				return pstmt.executeUpdate();
+			
 			}catch(Exception e){
 				e.printStackTrace();
 			}
@@ -70,7 +70,7 @@ public class inflearn_JSPDAO {
 		}
 	public ArrayList<inflearn_JSP> getList(int pageNumber){
 		String SQL = "SELECT * FROM inflearn_JSP WHERE inflearn_JSPID < ? AND inflearn_JSPIDAvailable = 1 ORDER BY inflearn_JSPIDDESC LIMIT 10";
-		ArrayList<inflearn_JSP> list = new inflearn_JSP<inflearn_JSP>();
+		ArrayList<inflearn_JSP> list = new inflearn_JSP<inflearn_JSP()>;
 			try{
 				PreparedStatement pstmt = conn.prepareStatement(SQL);
 				pstmt.setInt(1, getNext() - (pageNumber -1 ) * 10);
@@ -81,7 +81,7 @@ public class inflearn_JSPDAO {
 					Inflearn_JSP.setinflearn_JSPTitle(rs.getString(2));
 					Inflearn_JSP.setUserID(rs.getString(3));
 					Inflearn_JSP.setinflearn_JSPDate(rs.getString(4));
-					Inflearn_JSP.setinflearn_JSPIDContent(rs.getString(5));
+					Inflearn_JSP.setinflearn_JSPContent(rs.getString(5));
 					Inflearn_JSP.setinflearn_JSPAvaliable(rs.getInt(6));
 					list.add(inflearn_JSP);
 				}
@@ -104,5 +104,5 @@ public class inflearn_JSPDAO {
 			}
 			return false;
 	}
-}
 	
+}

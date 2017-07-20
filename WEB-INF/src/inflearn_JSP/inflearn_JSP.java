@@ -36,7 +36,7 @@ public class inflearn_JSP{
 	public String getinflearn_JSPContent(){
 		return inflearn_JSPContent;
 	}
-	public void setinflearn_JSPContent(){
+	public void setinflearn_JSPContent(String inflearn_JSPContent){
 		this.inflearn_JSPContent = inflearn_JSPContent;
 	}
 	public int getinflearn_JSPAvailable(){
