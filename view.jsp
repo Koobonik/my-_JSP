@@ -93,14 +93,36 @@
 				</thead>
 			<tbody>
 				<tr>
-					<td> </td>
+					<td style="width: 20%;">글 제목</td>
+					<td colspan="2"<%=inflearn_JSP.inflearn_JSPTitle.()replaceAll(" ", "&nbsp;).replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("\n", "<br>")%>></td>
+				</tr>
+				<tr>
+					<td >작성자</td>
+					<td colspan="2"<%=inflearn_JSP.UserID()%>></td>
+				</tr>
+				<tr>
+					<td >작성일자</td>
+					<td colspan="2"<%=inflearn_JSP.getinflearn_JSPDate().substring(0, 11) + inflearn_JSP.get(i).getinflearn_JSPDate.substring(11, 13) + "시" + inflearn_JSP.get(i).getinflearn_JSPDate(14, 16) + "분"%>></td>
+				</tr>
+				<tr>
+					<td >내용</td>
+					<td colspan="2" style="min-height:200px; text-align:left;"><%=inflearn_JSP.getinflearn_JSPContent().replaceAll(" ", "&nbsp;).replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("\n", "<br>")%></td>
 				</tr>
 			</tbody>
 		</table>
-			<input type="submit" class="btn btn-primary pull-right" value="글쓰기">
+		<a href="inflearn_JSP.jsp" class="btn btn-primary">목록</a>
+		<%
+			if(userID != null && userID.equals(inflearn_JSP.getUserID())){
+		%>
+			<a href="update.jsp?inflearn_JSPID=<%=inflearn_JSPID%>" class="btn btn-primary">수정</a>
+			<a href="deleteAction.jsp?inflearn_JSPID=<%=inflearn_JSPID%>" class="btn btn-primary">삭제</a>
+		<%
+			}
+		%>
+		<input type="submit" class="btn btn-primary pull-right" value="글쓰기">
 
 	
-			</div>
+		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
