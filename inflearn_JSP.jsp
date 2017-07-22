@@ -81,14 +81,33 @@
 				</tr>
 				</thead>
 				<tbody>
-				<tr>
-					<td>1</td>
-					<td>안녕하세요.</td>
-					<td>홍길동</td>
-					<td>2017-07-18</td>
+				<%
+					inflearn_JSPDAO Inflearn_JSPDAO = new inflearn_JSPDAO();
+					ArrayList<inflearn_JSP> list = Inflearn_JSPDAO.getList(pageNumber);
+					for(int i = 0; i < list.size(); i++){
+				%>
+					<tr>
+						<td><%= list.get(i).getinflearn_JSPID()%></td>
+						<td><a href ="view.jsp?getinflearn_JSPID=<%= list.get(i).getinflearn_JSPTitle() %>">list.get(i).getinflearn_JSPTitle().replaceAll(" ", "&nbsp;).replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll("\n", "<br>")%></a></td>
+						<td><%= list.get(i).getUserID()%></td>
+						<td><%= list.get(i).getinflearn_JSPDate().substring(0, 11) + list.get(i).getinflearn_JSPDate.substring(11, 13) + "시" + list.get(i).getinflearn_JSPDate(14, 16) + "분" %></td>
 					</tr>
+					<%
+						}
+					%>	
 				</tbody>
 			</table>
+			<%
+				if(pageNumber != 1){
+			%>
+				<a herf="inflearn_JSP.jsp?pageNumber=<%=pageNumber - 1%>" class="btn btn-success btn-arrow-left">이전</a>
+			<%
+				} if(Inflearn_JSPDAO.nextPage(pageNumber + 1)){
+			%>
+				<a herf="inflearn_JSP.jsp?pageNumber=<%=pageNumber + 1%>" class="btn btn-success btn-arrow-left">다음</a>
+			<%
+				}
+			%>
 			<a href="write.jsp" class="btn btn-primary pull-right">글쓰기</a>
 		</div>
 	</div>
