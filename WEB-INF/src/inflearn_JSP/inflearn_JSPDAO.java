@@ -14,7 +14,7 @@ public class inflearn_JSPDAO {
 	//mysql 접속
 	public inflearn_JSPDAO(){
 		try{
-			String dbURL ="jdbc:mysql:http://kooworld.run.goorm.io/inflearn_JSP/";
+			String dbURL ="jdbc:mysql://localhost:8080/inflearn_JSP";
 			String dbID = "root";
 			String dbPassword = "root";
 			Class.forName("com.mysql.jdbc.Driver");
