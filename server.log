@@ -143,3 +143,17 @@ Using CLASSPATH:       /goormService/tomcat7/bin/bootstrap.jar:/goormService/tom
 정보: Deploying web application directory /goormService/tomcat7/webapps/work
 8월 01, 2017 10:37:08 오후 org.apache.catalina.startup.HostConfig deployDirectory
 정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 188 ms
+8월 01, 2017 10:39:38 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/inflearn_JSP]
+8월 01, 2017 10:39:39 오후 org.apache.catalina.startup.HostConfig undeploy
+정보: Undeploying context [/work]
+8월 01, 2017 10:39:39 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/inflearn_JSP
+8월 01, 2017 10:39:39 오후 org.apache.catalina.startup.TldConfig execute
+정보: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+8월 01, 2017 10:39:39 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/inflearn_JSP has finished in 402 ms
+8월 01, 2017 10:39:49 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deploying web application directory /goormService/tomcat7/webapps/work
+8월 01, 2017 10:39:49 오후 org.apache.catalina.startup.HostConfig deployDirectory
+정보: Deployment of web application directory /goormService/tomcat7/webapps/work has finished in 110 ms
